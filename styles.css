@@ -101,3 +101,87 @@ h2 {
     flex-wrap: wrap;
     max-width: 165px;
 }
+.section-3 {
+    background-color: #e5e7eb;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 130px;
+}
+.quote-p {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.credit {
+    margin-left: auto;
+    padding-right: 170px;
+    padding-bottom: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+}
+.section-4 {
+    background-color: none;
+}
+#cta-container {
+    display: flex;
+    background-color: #3882f6; 
+    border-radius: 8px; 
+    margin: 80px 150px;
+    padding: 40px 90px;
+}
+h4 {
+   color: #f9faf8; 
+   justify-content: flex-start;
+   align-items: center;
+   margin: 0;
+   font-size: 1.3rem;
+}
+.signup {
+    color: #f9faf8;
+    font-size: 18px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+.button-2 {
+    background-color: #3882f6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    padding: 5px 30px;
+    font-size: 18px;
+    margin-left: 250px;
+    flex-shrink: 0;
+}
+.lhs { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.rhs {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+    font-size: 18px;
+
+}
