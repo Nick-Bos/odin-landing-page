@@ -161,7 +161,7 @@ h4 {
     border-radius: 8px;
     padding: 5px 30px;
     font-size: 18px;
-    margin-left: 250px;
+    margin-left: 300px;
     flex-shrink: 0;
 }
 .lhs { 
@@ -172,6 +172,7 @@ h4 {
 }
 .rhs {
     display: flex;
+    flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
 }
